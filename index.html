@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IcomShop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4 shadow-lg flex justify-between items-center">
+        <h1 class="text-2xl font-bold">IcomShop</h1>
+        <ul class="flex gap-6">
+            <li><a href="#home" class="hover:underline">Home</a></li>
+            <li><a href="#about" class="hover:underline">About</a></li>
+            <li><a href="#products" class="hover:underline">Products</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="bg-blue-500 text-white text-center py-20">
+        <h2 class="text-4xl font-bold">Welcome to IcomShop</h2>
+        <p class="mt-2 text-lg">Best deals on the latest tech and gadgets</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-6 space-y-12">
+        <!-- About Section -->
+        <section id="about" class="text-center">
+            <h3 class="text-3xl font-semibold">About Us</h3>
+            <p class="mt-2 text-gray-600">We offer the latest electronics at the best prices.</p>
+        </section>
+
+        <!-- Featured Products -->
+        <section id="products" class="text-center">
+            <h3 class="text-3xl font-semibold">Featured Products</h3>
+            <div class="grid md:grid-cols-3 gap-6 mt-4">
+                <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                    <div class="h-40 bg-gray-300 flex items-center justify-center text-gray-500">Image 1</div>
+                    <h4 class="mt-2 font-semibold">Product 1</h4>
+                    <p class="text-gray-600">Description of product 1</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                    <div class="h-40 bg-gray-300 flex items-center justify-center text-gray-500">Image 2</div>
+                    <h4 class="mt-2 font-semibold">Product 2</h4>
+                    <p class="text-gray-600">Description of product 2</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                    <div class="h-40 bg-gray-300 flex items-center justify-center text-gray-500">Image 3</div>
+                    <h4 class="mt-2 font-semibold">Product 3</h4>
+                    <p class="text-gray-600">Description of product 3</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center">
+            <h3 class="text-3xl font-semibold">Contact Us</h3>
+            <p class="mt-2 text-gray-600">Email: support@icomshop.com</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-700 text-white text-center py-4 mt-12">
+        <p>&copy; 2025 IcomShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
